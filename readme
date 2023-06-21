@@ -1,1 +1,16 @@
 
+still testing
+
+A diagnostic model for multi classification recognition of NC, MCI and AD using ADNI data of public database and deep Transfer learning method. 
+First, use the Transfer learning method to initialize the VGG network parameters,
+and use MRI brain images and PET brain images to train the network model to fine tune the network parameters,
+forming two independent single-mode CNN networks (MRI-CNN, PET-CNN),
+then extract the feature vectors of MRI-CNN and PET-CNN networks respectively and fuse them, 
+and finally build a full connection layer for MRI-CNN and PET-CNN networks,
+
+And use the Adaboost algorithm to select and fuse features, and construct a classifier for classification and recognition. 
+
+On the basis of widely available, low-cost, and non-invasive cognitive assessment, 
+the fusion of MRI and PET imaging provides technical support for ultra early personalized monitoring of AD and the development of scientific and reasonable personalized brain health management plans.
+
+
